@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - entry point
+ * main - Entry point
  * Description: print numbers
  * Return: 0
  */
@@ -15,7 +15,7 @@ int main(void)
 
 		if (i != '9')
 		{
-			putchar(' , ');
+			putchar(',');
 			putchar(' ');
 		}
 	}
