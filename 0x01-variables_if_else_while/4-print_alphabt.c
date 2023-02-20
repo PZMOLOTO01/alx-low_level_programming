@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main Entry point
- * Description: print lowercase alphabets
+ * main - Entry point
+ * Description: prints lowercase alphabets then new line
  * Return: 0
  */
 int main(void)
