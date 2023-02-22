@@ -2,22 +2,22 @@
 
 /**
  * print_last_digit - function that print the last digit of a number
- * @g: a function parameter
- * Return: h
+ * @n: input numer as an integer
+ * Return: last digit
  */
-int print_last_digit(int g)
+int print_last_digit(int n)
 {
-	int h;
-	h = g % 10;
-	if (g < 0)
-		g = -g;
+	int l;
 
-	h = g & 10;
-
-	if (h < 0)
-		h = -h;
-
-	_putchar(h + '0');
-
-	return (h);
+	l = n % 10;
+	if (l < 0)
+	{
+		_putchar(-l + 48);
+		return (-l);
+	}
+	else
+	{
+		_putchar(l + 48);
+		return (l);
+	}
 }
