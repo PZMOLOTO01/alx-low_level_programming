@@ -1,8 +1,8 @@
 #include "main.h"
  /**
-  * print_to_98 - functions to print natural numbers
+  * print_to_98 - function to print natural numbers
   * @n: number input
-  * Return: 0
+  * Return: 0 (success)
   */
 
 void print_to_98(int n);
