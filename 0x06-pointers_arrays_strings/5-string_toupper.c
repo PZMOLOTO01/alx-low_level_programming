@@ -4,15 +4,15 @@
  * @str: string to be changed
  * Return: a poointer string to be changed
  */
-void *string_toupper(char *str)
+char *string_toupper(char *str)
 {
-	int index = a;
+	int i;
 
-	while (str[index])
+	while (str[i])
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
-		index++;
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
+		i++;
 	}
 	return (str);
 }
