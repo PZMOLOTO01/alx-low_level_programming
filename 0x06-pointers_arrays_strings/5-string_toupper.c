@@ -1,17 +1,19 @@
 #include "main.h"
 /**
  * string_toupper - capitalize all letters
- * @s: stringto be capitalized
- * Return: capitalized string
+ * @s: pointer
+ * Return: s
  */
 char *string_toupper(char *s)
 {
-	int i = 0;
+	int i;
 
-	for (s = 0; s[i] != '\0'; i++)
+	i = 0;
+	while (s[i] != '\0')
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
-			s[i] = s[i] - 'a' + 'A';
+			s[i] = s[i] - 32;
+		i++;
 	}
 	return (s);
 }
