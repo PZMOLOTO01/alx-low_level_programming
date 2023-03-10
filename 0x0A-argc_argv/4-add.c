@@ -30,7 +30,7 @@ int check_num(char *str)
  * @argv: arguments
  * Return: 0
  */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
 	int count;
@@ -53,6 +53,6 @@ int main(int argc,char *argv[])
 		}
 		count++;
 	}
-	printf("%d\n", sum) /*print sum*/
+	printf("%d\n", sum); /*print sum*/
 		return (0);
 }
