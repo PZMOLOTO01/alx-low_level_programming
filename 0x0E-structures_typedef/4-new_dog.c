@@ -16,12 +16,12 @@ int _strlen(char *str)
 
 	while (*str++)
 		len++;
-
 	return (len);
 }
 
 /**
- * _strcopy - Copies the string pointed to the src, including the termination null byte
+ * _strcopy - Copies the string pointed to the src, including the termination
+ * null byte
  * to a buffer pointed by the dest.
  * @dest: The buffer storing the string copy
  * @src: The source string.
@@ -76,5 +76,3 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (doggo);
 }
-
-			
