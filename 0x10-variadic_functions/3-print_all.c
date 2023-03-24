@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 {
 	va_list a_list;
 	int i;
-	char *s;
+	char *str;
 	int flag;
 
 	va_start(a_list, format);
@@ -33,7 +33,7 @@ void print_all(const char * const format, ...)
 				flag = 0;
 				break;
 			case 's':
-				str = va_arg(a_list, char *);
+				str = va_arg(a_list, char*);
 				if (str == NULL)
 					str = "(nil)";
 				printf("%s", str);
